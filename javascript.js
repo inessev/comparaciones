@@ -5,7 +5,7 @@ var number2= prompt("Escriba aquí el segundo numero");
 if(number1>number2){
     alert("El "+ number1+ " es mayor que "+ number2);
 }else{
-    alert("El"+ number1+ " no es mayor que "+ number2);
+    alert("El "+ number1+ " no es mayor que "+ number2);
 }
 
 if(number1<=number2){
