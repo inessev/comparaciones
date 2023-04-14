@@ -11,7 +11,7 @@ if(number1>number2){
 if(number1<=number2){
     alert("El número "+ number1+" es menor o igual que "+ number2);
 }else{
-    alert("El número "+ number1+" NO es menor o igual que "+ number2);
+    alert("El número "+ number1+" es no es menor o igual que "+ number2);
 }
 
 if(number2%2==0){
