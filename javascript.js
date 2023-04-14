@@ -4,14 +4,8 @@ var number2= prompt("Escriba aquí el segundo numero");
 
 if(number1>number2){
     alert("El "+ number1+ " es mayor que el "+ number2);
-}else {
-    alert("El "+ number1+ " es menor que el "+ number2);
-}
-
-if(number1==number2){
-    alert("El "+ number1+" y el "+ number2+" son iguales");
 }else{
-    alert("El "+ number1+" y el "+ number2+" no son iguales");
+    alert("El "+ number1+ " es menor o igual que el "+ number2);
 }
 
 if(number2%2==0){
@@ -19,4 +13,3 @@ if(number2%2==0){
 }else{
     alert("El "+ number2+" es impar");
 }
-
