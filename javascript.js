@@ -3,20 +3,20 @@ var number1= prompt("Escriba aquí el primer numero");
 var number2= prompt("Escriba aquí el segundo numero");
 
 if(number1>number2){
-    alert("El mayor es "+ number1);
+    alert("El "+ number1+ " es mayor que "+ number2);
 }else{
-    alert("El mayor es "+ number2);
+    alert("El"+ number1+ " no es mayor que "+ number2);
 }
 
 if(number1<=number2){
-    alert("El número "+ number1+" es menor o igual que "+ number2);
+    alert("El "+ number1+" es menor o igual que "+ number2);
 }else{
-    alert("El número "+ number1+" es no es menor o igual que "+ number2);
+    alert("El "+ number1+" no es menor o igual que "+ number2);
 }
 
 if(number2%2==0){
-    alert("El número "+ number2+" es par");
+    alert("El "+ number2+" es par");
 }else{
-    alert("El número "+ number2+" es impar");
+    alert("El "+ number2+" es impar");
 }
 
